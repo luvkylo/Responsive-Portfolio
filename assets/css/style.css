@@ -143,6 +143,10 @@ section > h1 {
 }
 
 @media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+
 	header .container {
 		padding: 0;
 	}
@@ -153,7 +157,7 @@ section > h1 {
 	}
 
 	#main-container {
-		padding-top: 170px;
+		padding-top: 0;
 	}
 
 	nav {
